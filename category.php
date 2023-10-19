@@ -123,7 +123,7 @@ header('location:my-wishlist.php');
 while($row=mysqli_fetch_array($sql))
 {
     ?>
-                <a href="sub-category.php?scid=<?php echo $row['id'];?>" class="dropdown-toggle"><i class="icon fa fa-desktop fa-fw"></i>
+                <a href="sub-category.php?scid=<?php echo $row['id'];?>" class="dropdown-toggle"></i>
                 <?php echo $row['subcategory'];?></a>
                 <?php }?>
                         
@@ -172,13 +172,15 @@ while($row=mysqli_fetch_array($sql))
 	<div id="category" class="category-carousel hidden-xs">
 		<div class="item">	
 			<div class="image">
-				<img src="assets/images/banners/cat-banner-1.jpg" alt="" class="img-responsive">
+				<img src="assets/images/banners/categoria.png" alt="" class="img-responsive">
 			</div>
 			<div class="container-fluid">
 				<div class="caption vertical-top text-left">
 					<div class="big-text">
 						<br />
 					</div>
+
+					<br><br><br>
 
 					       <?php $sql=mysqli_query($con,"select categoryName  from category where id='$cid'");
 while($row=mysqli_fetch_array($sql))
@@ -199,8 +201,10 @@ while($row=mysqli_fetch_array($sql))
 					<div id="myTabContent" class="tab-content">
 						<div class="tab-pane active " id="grid-container">
 							<div class="category-product  inner-top-vs">
-								<div class="row">									
+								<div class="row">		
+									<br><br><br>							
 			<?php
+			
 $ret=mysqli_query($con,"select * from products where category='$cid'");
 $num=mysqli_num_rows($ret);
 if($num>0)
@@ -212,7 +216,7 @@ while ($row=mysqli_fetch_array($ret))
 	<div class="product">		
 		<div class="product-image">
 			<div class="image">
-				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><img  src="assets/images/blank.gif" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="" width="200" height="300"></a>
+				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><img  src="assets/images/blank.gif" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="" width="150" height="150"></a>
 			</div><!-- /.image -->			                      		   
 		</div><!-- /.product-image -->
 			

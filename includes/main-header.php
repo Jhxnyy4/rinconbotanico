@@ -15,22 +15,21 @@
 	<div class="main-header">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
+				<div class="col-xs-12 col-sm-12 col-md-4 logo-holder">
 					<!-- ============================================================= LOGO ============================================================= -->
 <div class="logo">
-	<a href="index.php">
-		
-		<h2>Rincón botánico</h2>
-
+	<a href="index.php">	
+	<h2 style=""  ><img src="assets/logosinnombre.png" width="60px" heigth="60px"> Rincón botánico</h2>
 	</a>
+	<br>
 </div>		
 </div>
-<div class="col-xs-12 col-sm-12 col-md-6 top-search-holder">
+<div class="col-xs-12 col-sm-12 col-md-5 top-search-holder">
 <div class="search-area">
     <form name="search" method="post" action="search-result.php">
-        <div class="control-group">
+        <div  class="control-group">
 
-            <input class="search-field" placeholder="Buscar producto..." name="product" required="required" />
+            <input style="padding-left:50px" class="search-field" placeholder="Buscar producto..." name="product" required="required" />
 
             <button class="search-button" type="submit" name="search"></button>    
 

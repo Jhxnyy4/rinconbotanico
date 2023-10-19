@@ -95,7 +95,7 @@ else{
 	    <input type="radio" name="paymethod" value="Paypal" checked="checked"> Paypal
 	     <input type="radio" name="paymethod" value="Mercado pago"> Mercado pago
 	     <input type="radio" name="paymethod" value="Debit / Credit card"> Debito / Tarjeta de crédito <br /><br />
-	     <input type="submit" value="submit" name="submit" class="btn btn-primary">
+	     <input type="submit" value="Realizar pago" name="submit" class="btn btn-primary">
 	    	
 
 	    </form>		

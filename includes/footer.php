@@ -36,16 +36,16 @@
             		 <!-- ============================================================= CONTACT TIMING============================================================= -->
 <div class="contact-timing">
 	<div class="module-heading">
-		<h4 class="module-title">opening time</h4>
+		<h4 class="module-title"> Abierto</h4>
 	</div><!-- /.module-heading -->
 
 	<div class="module-body outer-top-xs">
 		<div class="table-responsive">
 			<table class="table">
 				<tbody>
-					<tr><td>Monday-Friday:</td><td class="pull-right">08.00 To 18.00</td></tr>
-					<tr><td>Saturday:</td><td class="pull-right">09.00 To 20.00</td></tr>
-					<tr><td>Sunday:</td><td class="pull-right">10.00 To 20.00</td></tr>
+					<tr><td>Lunes - Viernes:</td><td class="pull-right">08.00 - 18.00</td></tr>
+					<tr><td>Sábado:</td><td class="pull-right">09.00 - 20.00</td></tr>
+					<tr><td>Domingo:</td><td class="pull-right">10.00 - 20.00</td></tr>
 				</tbody>
 			</table>
 		</div><!-- /.table-responsive -->

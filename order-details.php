@@ -116,7 +116,7 @@ while($row=mysqli_fetch_array($query))
 					<td><?php echo $cnt;?></td>
 					<td class="cart-image">
 						<a class="entry-thumbnail" href="detail.html">
-						    <img src="admin/productimages/<?php echo $row['pname'];?>/<?php echo $row['pimg1'];?>" alt="" width="84" height="146">
+						    <img src="admin/productimages/<?php echo $row['proid'];?>/<?php echo $row['pimg1'];?>" alt="" width="84" height="146">
 						</a>
 					</td>
 					<td class="cart-product-name-info">
@@ -128,9 +128,9 @@ while($row=mysqli_fetch_array($query))
 					<td class="cart-product-quantity">
 						<?php echo $qty=$row['qty']; ?>   
 		            </td>
-					<td class="cart-product-sub-total"><?php echo $price=$row['pprice']; ?>  </td>
-					<td class="cart-product-grand-total"><?php echo $qty*$price;?></td>
-					<td class="cart-product-sub-total"><?php echo $row['paym']; ?>  </td>
+					<td class="cart-product-sub-total">$<?php echo $price=$row['pprice']; ?> MXN</td>
+					<td class="cart-product-grand-total">$<?php echo $qty*$price;?> MXN</td>
+					<td class="cart-product-sub-total">$<?php echo $row['paym']; ?> MXN </td>
 					<td class="cart-product-sub-total"><?php echo $row['odate']; ?>  </td>
 					
 					<td>
